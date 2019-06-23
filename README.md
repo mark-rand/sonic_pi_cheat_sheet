@@ -33,5 +33,10 @@ a=ring(1,2,3)
 puts a.tick # 1
 puts a.tick # 2
 puts a.look # 2
+```
+
+## Manipulating a list
+```
 puts knit(1,2,3,4,5,6) # (ring 1, 1, 3, 3, 3, 3, 5, 5, 5, 5, 5, 5)
+puts (stretch [1,2], 3) # (ring 1, 1, 1, 2, 2, 2)
 ```
