@@ -40,3 +40,6 @@ puts a.look # 2
 puts knit(1,2,3,4,5,6) # (ring 1, 1, 3, 3, 3, 3, 5, 5, 5, 5, 5, 5)
 puts (stretch [1,2], 3) # (ring 1, 1, 1, 2, 2, 2)
 ```
+
+# Taking different steps
+if (spread 1,4).tick # 1 in every 4
