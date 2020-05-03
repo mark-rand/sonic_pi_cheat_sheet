@@ -42,4 +42,4 @@ puts (stretch [1,2], 3) # (ring 1, 1, 1, 2, 2, 2)
 ```
 
 # Taking different steps
-if (spread 1,4).tick # 1 in every 4
+```if (spread 1,4).tick # 1 in every 4```
